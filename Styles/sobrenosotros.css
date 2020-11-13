@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.contact--general0__Titulo {
+    /*Barra de título*/
+    position: fixed;
+    z-index: 150;
+    text-align: center;
+    display: block;
+    width: 90%;
+    right: 0;
+    background-color: #e3e7ec;
+    border-bottom: rgb(167, 197, 206) 1.5px solid;
+}
+
+.contact--general0__Titulo {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 300;
+}
+
+.contact--general0__Titulo>h1 {
+    font-size: 28px;
+    color: #4633b3;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 15px;
+}
+
+.contact--general1__section {
+    position: fixed;
+}
+
+.Container--nav {
+    /*contenedor Nav de la izquierda*/
+    position: fixed;
+    display: flex;
+    z-index: 1000;
+    background-color: #e3e7ec;
+    border-right: rgb(167, 197, 206) 1.5px solid;
+    flex-direction: column;
+    width: 10%;
+    height: 100%;
+}
+
+
+.a-1 {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+.a-2 {
+    width: 100px;
+    text-align: center;
+}
+
+.Container--nav>a { 
+    margin-right: auto;
+    margin-left: auto;
+    border:#ff7a59 3px solid;
+    background-color: #ff7a59;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 100;
+
+}
+
+.contenedir-del-logo {
+    display: flex;
+    width: 100%;
+    margin-top: auto;
+    background-color: #e3e7ec;
+    border-top: rgb(167, 197, 206) 1.5px solid;
+    justify-content: space-around;
+}
+
+.logoaxel {
+    padding: 5px 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.Container--nav>a:hover {
+    /*Links de el nav de la izq*/
+    background-color: #ffbcac;
+    border:#ffbcac 3px solid;
+    transition: .5s;
+    color: #ffffff;
+}
+
+/*h3-------------------*/
+
+h3 {
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*Container pricipal 1 título*/
+
+.container-principal1 {
+    position: absolute;
+    display: flex;
+    background-color: rgb(247, 242, 242);
+    z-index: 200;
+    width: 1229px;
+    height: 79px;
+    top: 71px;
+    right: 0;
+}
+
+.container-principal1>h3 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*Container pricipal 2 body*/
+
+.container-principal2 {
+    position: absolute;
+    display: flex;
+    background-color: rgb(247, 242, 242);
+    z-index: 200;
+    width: 1229px;
+    height: 250px;
+    top: 150px;
+    right: 0;
+    align-items: center;
+}
+
+.img {
+    height: 230px;
+    width: 230px;
+    margin-left: 30px;
+}
+
+.container-principal2>p {
+    margin-left: 40px;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 20px;
+    user-select: none;
+}
+
+/*Container pricipal 3 otro título*/
+
+.container-principal3 {
+    position: absolute;
+    display: flex;
+    background-color: rgb(231, 225, 225);
+    z-index: 200;
+    width: 1229px;
+    height: 79px;
+    top: 400px;
+    right: 0;
+}
+
+.container-principal3>h3 {
+    margin: auto;
+    color: rgb(83, 20, 107);
+}
+
+/*container principal 4-----*/
+
+.container-principal4 {
+    position: absolute;
+    display: flex;
+    background-color: rgb(247, 242, 242);
+    z-index: 200;
+    width: 1229px;
+    height: 400px;
+    top: 479px;
+    right: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-principal4>div {
+    background-color: rgb(231, 225, 225);
+    border: solid 1px rgb(231, 225, 225);
+    border-radius: 15px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*html----------------*/
+
+.container-general4-img-html {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.principal4-1-h3 {
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.principal4-1-p {
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/*CSS-----------------------*/
+
+.container-general4-img-css {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.principal4-2-h3 {
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.principal4-2-p {
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/*JS-----------------------*/
+
+.container-general4-img-JS {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.principal4-3-h3 {
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.principal4-3-p {
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/*GIT-----------------------*/
+
+.container-general4-img-git {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.principal4-4-h3 {
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.principal4-4-p {
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
